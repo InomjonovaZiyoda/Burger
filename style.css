@@ -1,0 +1,382 @@
+*{
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: Poppins,sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+
+.container{
+    width:1200px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.nav-header{
+    background-image: url(./IGrzIxlfue\ 1.png);
+    width: 100%;
+    height: 886px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-btn{
+    width: 165px;
+    height: 49px;
+    border-radius: 5px;
+    background: #F6762C;
+    border: none;
+    color: white;
+}
+
+.navbar-links{
+    display: flex;
+    color: white;
+    gap: 28px;
+}
+
+.navbar-links li:hover{
+font-family: 'Roboto';
+font-size: 15px;
+font-weight: 700;
+}
+
+/* header */
+.header-text{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.header-text p{
+    font-size: 14px;
+    font-weight: 500;
+    max-width: 523px;
+}
+
+.header.text h1{
+    font-size: 57.33px;
+    font-weight: 500;
+    max-width: 555px;
+}
+
+.header .container{
+    margin-top: 186px;
+}
+/* header end */
+
+.pizza-card{
+    width: 263px;
+    height: 323px;
+    border-radius: 10px;
+    background: #312F30;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.pizzas-text h3{
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+}
+
+.pizzas-text p{
+font-size: 16px;
+font-weight: 400;
+text-align: center;
+color: white;
+max-width: 263px;
+}
+
+.pizza-cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pizzas .container{
+    margin-top: 115px;
+    margin-bottom: 115px;
+}
+/* burger */
+
+.burger{
+    background-color:#312F30;
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+
+.burger-text h2{
+    font-size: 44.2px;
+    font-weight: 500;
+    color: white;
+}
+
+.burger-text p{
+font-size: 16px;
+font-weight: 400;
+color: white;
+max-width: 368px;
+}
+
+.burger-text span{
+    color: #F6762C;
+}
+
+.burger-king{
+    display: flex;
+    align-items: center;
+    gap: 161px;
+}
+
+.burger-text{
+    display: flex;
+    flex-direction:column ;
+    gap: 24px;
+}
+
+/* burger king */
+.burger-king .container{
+    margin-top: 150px;
+}
+
+.cofe{
+    width: 555px;
+    height: 300px;
+    background-image: url(cofe.png);
+    display: flex;
+    align-items: center;
+}
+
+.burger-card{
+    width: 555px;
+    height: 300px;
+    background-image: url(burger.png);
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.pizza-hut{
+    width: 555px;
+    height: 300px;
+    background-image: url(pizza.png);
+    display: flex;
+    align-items: center;
+}
+
+.lavash{
+    width: 555px;
+    height: 300px;
+    background-image: url(lavash.png);
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.cofe-text h2{
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+}
+
+.cofe-text p{
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    max-width: 263px;
+}
+
+.cofe-text span{
+    font-size: 16px;
+    font-weight: 500;
+    color: #F6762C;
+}
+
+.cofe-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 291px;
+}
+
+.burger-all{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.pizza-hut-text h2{
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+}
+
+.pizza-hut-text p{
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    max-width: 263px;
+}
+
+.pizza-hut-text span{
+    font-size: 16px;
+    font-weight: 500;
+    color: #F6762C;
+}
+
+.pizza-hut-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 50px;
+}
+
+.lavash-text h2{
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+}
+
+.lavash-text p{
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    max-width: 263px;
+}
+
+.lavash-text span{
+    font-size: 16px;
+    font-weight: 500;
+    color: #F6762C;
+}
+
+.lavash-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 50px;
+}
+/* burger king end */
+
+.people-text p{
+    max-width: 368px;
+    color: white;
+font-size: 16px;
+font-weight: 400;
+text-align: center;
+}
+
+.people-text h2{
+font-size: 24px;
+font-weight: 500;
+color: white;
+}
+
+.picture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 118px;
+}
+
+.people-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 37px;
+}
+
+.people .container{
+    margin-top: 146px;
+    margin-bottom: 194px;
+}
+/* people end */
+
+/* download */
+.download{
+    width: 100%;
+    background: #312F30;
+    padding: 60px;
+}
+
+.download-menu h1{
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
+}
+
+.download-menu{
+    display: flex;
+    justify-content: space-between;
+}
+/* download end */
+
+/* footer */
+.footer{
+    padding: 86px 0px 86px 0px;
+}
+
+.footer-all{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-logo span{
+    display: flex;
+    gap: 10px;
+}
+
+.footer-logo span p{
+    color: white;
+}
+
+.footer-logo i{
+    color: #F6762C;
+}
+.footer-links{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer-icon h3{
+    color: white;
+}
+
+.footer-icon span .fa-facebook{
+    color: blue;
+}
+
+.footer-icon span .fa-twitter{
+    color: aqua;
+}
+
+.footer-icon span .fa-instagram{
+    color: pink;
+}
+
+.footer-icon span .fa-linkedin{
+    color: blue;
+}
+
+.footer-icon span{
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+/* footer end */
